@@ -1,0 +1,115 @@
+/* _content/InlabProject/Pages/Shared/_Layout.cshtml.rz.scp.css */
+
+.navbar[b-bdikt24lmn] {
+  padding: 0.25rem 0.5rem; /* Reduced padding for the entire navbar */
+}
+
+.navbar-brand[b-bdikt24lmn] {
+  font-size: 1.2rem; /* Adjust the brand font size */
+  padding: 0.5rem; /* Adjust padding */
+  line-height: 1.2; /* Control height of the brand */
+}
+
+.navbar-toggler[b-bdikt24lmn] {
+  padding: 0.25rem; /* Reduce padding around the toggle button */
+  border: none; /* Remove border for a cleaner look */
+}
+
+.navbar-nav .nav-link[b-bdikt24lmn] {
+  margin: 0 0.5rem; /* Space between links */
+  font-size: 0.9rem; /* Adjust font size for links */
+}
+
+/* Optional: add hover effects to links */
+.navbar-nav .nav-link:hover[b-bdikt24lmn] {
+  text-decoration: underline; /* Add underline on hover for better visibility */
+}
+
+
+/* _content/InlabProject/Pages/Shared/_NewLayout.cshtml.rz.scp.css */
+html[b-0fmcz3heit], body[b-0fmcz3heit] {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  body[b-0fmcz3heit] {
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center the login container vertically */
+    align-items: center; /* Center the login container horizontally */
+    color: white;
+  }
+  
+  
+  
+  h2[b-0fmcz3heit] {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+    color: #00bfff;
+  }
+  
+  form[b-0fmcz3heit] {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 15px; /* Space between form elements */
+  }
+  
+  label[b-0fmcz3heit] {
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  input[b-0fmcz3heit] {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button[b-0fmcz3heit] {
+    padding: 10px;
+    background-color: #00bfff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  button:hover[b-0fmcz3heit] {
+    background-color: #007acc;
+    transition: background-color 0.3s ease;
+  }
+  
+  p[b-0fmcz3heit] {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  a[b-0fmcz3heit] {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  a:hover[b-0fmcz3heit] {
+    text-decoration: underline;
+  }
+  
+  .app-footer[b-0fmcz3heit] {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Full width */
+    position: absolute; /* Position at the bottom of the page */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+  }
+  

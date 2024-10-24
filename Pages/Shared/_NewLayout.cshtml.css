@@ -1,0 +1,86 @@
+html, body {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center the login container vertically */
+    align-items: center; /* Center the login container horizontally */
+    color: white;
+  }
+  
+  
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+    color: #00bfff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 15px; /* Space between form elements */
+  }
+  
+  label {
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #00bfff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  button:hover {
+    background-color: #007acc;
+    transition: background-color 0.3s ease;
+  }
+  
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .app-footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Full width */
+    position: absolute; /* Position at the bottom of the page */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+  }
+  

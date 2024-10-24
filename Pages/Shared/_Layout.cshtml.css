@@ -1,0 +1,27 @@
+﻿
+.navbar {
+  padding: 0.25rem 0.5rem; /* Reduced padding for the entire navbar */
+}
+
+.navbar-brand {
+  font-size: 1.2rem; /* Adjust the brand font size */
+  padding: 0.5rem; /* Adjust padding */
+  line-height: 1.2; /* Control height of the brand */
+}
+
+.navbar-toggler {
+  padding: 0.25rem; /* Reduce padding around the toggle button */
+  border: none; /* Remove border for a cleaner look */
+}
+
+.navbar-nav .nav-link {
+  margin: 0 0.5rem; /* Space between links */
+  font-size: 0.9rem; /* Adjust font size for links */
+}
+
+/* Optional: add hover effects to links */
+.navbar-nav .nav-link:hover {
+  text-decoration: underline; /* Add underline on hover for better visibility */
+}
+
+

@@ -1,0 +1,88 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/home.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> <!-- Ensure Bootstrap CSS is included -->
+</head>
+
+<div class="container">
+    <aside class="filter-column">
+        <h2>Filter Options</h2>
+        <form id="filter-form">
+            <div class="filter-group">
+                <h3>Majors</h3>
+                <label><input type="checkbox" name="major" value="CIE"> CIE</label><br>
+                <label><input type="checkbox" name="major" value="Naneng"> Naneng</label><br>
+                <label><input type="checkbox" name="major" value="Aerospace"> Aerospace</label><br>
+                <label><input type="checkbox" name="major" value="Environmental"> Environmental</label><br>
+                <label><input type="checkbox" name="major" value="Renewable"> Renewable</label><br>
+            </div>
+            <div class="filter-group">
+                <h3>Instructor</h3>
+                <label><input type="checkbox" name="instructor" value="Tamer"> Tamer Ashour</label><br>
+                <label><input type="checkbox" name="instructor" value="mahmoud"> Mahmoud Abdelaziz</label><br>
+            </div>
+            <button type="submit">Apply</button>
+        </form>
+    </aside>
+
+    <main>
+        <h1>Welcome to the Homepage</h1>
+        <p>This is the homepage of the InlabProject.</p>
+
+        <!-- Project Details Grid -->
+        <div class="project-grid">
+            <div class="project-card">
+                <h5>Project A</h5>
+                <p><strong>Students:</strong> Alice, Bob</p>
+                <p><strong>Instructor:</strong> Tamer Ashour</p>
+                <p><strong>Major:</strong> CIE</p>
+                <button class="btn btn-link">View Files</button>
+            </div>
+            <div class="project-card">
+                <h5>Project B</h5>
+                <p><strong>Students:</strong> Charlie, David</p>
+                <p><strong>Instructor:</strong> Tamer Ashour</p>
+                <p><strong>Major:</strong> Naneng</p>
+                <button class="btn btn-link">View Files</button>
+            </div>
+            <div class="project-card">
+                <h5>Project C</h5>
+                <p><strong>Students:</strong> Eve, Frank</p>
+                <p><strong>Instructor:</strong> Tamer Ashour</p>
+                <p><strong>Major:</strong> Aerospace</p>
+                <button class="btn btn-link">View Files</button>
+            </div>
+            <div class="project-card">
+                <h5>Project D</h5>
+                <p><strong>Students:</strong> Grace, Heidi</p>
+                <p><strong>Instructor:</strong> Mahmoud Abdelaziz</p>
+                <p><strong>Major:</strong> Environmental</p>
+                <button class="btn btn-link">View Files</button>
+            </div>
+            <div class="project-card">
+                <h5>Project E</h5>
+                <p><strong>Students:</strong> Ivan, Judy</p>
+                <p><strong>Instructor:</strong> Mahmoud Abdelaziz</p>
+                <p><strong>Major:</strong> Renewable</p>
+                <button class="btn btn-link">View Files</button>
+            </div>
+            <div class="project-card">
+                <h5>Project F</h5>
+                <p><strong>Students:</strong> Ken, Leo</p>
+                <p><strong>Instructor:</strong> Mahmoud Abdelaziz</p>
+                <p><strong>Major:</strong> CIE</p>
+                <button class="btn btn-link">View Files</button>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Scripts -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js"></script>

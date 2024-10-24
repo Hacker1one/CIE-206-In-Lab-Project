@@ -1,0 +1,28 @@
+﻿@page
+@model LoginModel
+@{
+    Layout = "_NewLayout";
+    ViewData["Title"] = "Login";
+}
+<head>
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" asp-for="Username" placeholder="Enter your username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" asp-for="Password" placeholder="Enter your password" required>
+
+        <button type="submit">Login</button>
+    </form>
+    <div class="error-message">
+        @if (ViewData["Error"] != null)
+        {
+            <p>@ViewData["Error"]</p>
+        }
+    </div>
+</div>
