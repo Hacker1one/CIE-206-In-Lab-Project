@@ -29,3 +29,4 @@
 /Users/abdelrahmantaha/Desktop/InlabProject/obj/Debug/net8.0/InlabProject.genruntimeconfig.cache
 /Users/abdelrahmantaha/Desktop/InlabProject/obj/Debug/net8.0/ref/InlabProject.dll
 /Users/abdelrahmantaha/Desktop/InlabProject/obj/Debug/net8.0/scopedcss/Pages/Shared/_NewLayout.cshtml.rz.scp.css
+/Users/abdelrahmantaha/Desktop/InlabProject/obj/Debug/net8.0/InlabProject.sourcelink.json
